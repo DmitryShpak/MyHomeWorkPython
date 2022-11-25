@@ -1,9 +1,6 @@
-print('Введите значения числа x ')
-x = int(input())
-print('Введите значения числа y ')
-y = int(input())
-print('Введите значения числа z ')
-z = int(input())
+x = int(input('Введите значения числа x '))
+y = int(input('Введите значения числа y '))
+z = int(input('Введите значения числа z '))
 if not(x or y or z)==(not x and not y and not z):
     print(True)
 else:

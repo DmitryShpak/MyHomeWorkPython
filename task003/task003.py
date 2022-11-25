@@ -1,7 +1,5 @@
-print('Введите координату x')
-x=int(input())
-print('Введите координату y')
-y=int(input())
+x=int(input('Введите координату x' ))
+y=int(input('Введите координату y' ))
 if x>0 and y>0:
     print('Первая координатная плоскость')
 elif x<0 and y>0:

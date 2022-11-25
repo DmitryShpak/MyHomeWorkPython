@@ -1,5 +1,4 @@
-print('Введите номер дня недели')
-day = int(input())
+day = int(input('Введите номер дня недели '))
 if day==6 or day==7:
     print('да')    
 else:
