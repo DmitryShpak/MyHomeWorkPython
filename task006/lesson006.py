@@ -1,4 +1,4 @@
-n = input('Введите число ')
+n = input()
  
 suma = 0
  
